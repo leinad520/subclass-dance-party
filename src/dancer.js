@@ -3,6 +3,7 @@ var MakeDancer = function(top, left, timeBetweenSteps) {
   this.time = timeBetweenSteps;
   this.top = top;
   this.left = left;
+  // debugger;
   this.step();
   this.setPosition(top, left);
 }
