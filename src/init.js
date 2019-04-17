@@ -34,17 +34,16 @@ $(document).ready(function() {
     
   });
 
-  $('.addPopDancerButton').on('click', function(event) {
-    var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
-    var secondDancerMakerFunction = window[dancerMakerFunctionName];
+  // $('.addPopDancerButton').on('click', function(event) {
+  //   var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
+  //   var secondDancerMakerFunction = window[dancerMakerFunctionName];
+  //   var popDancer = new secondDancerMakerFunction(
+  //     $("body").height() * Math.random(),
+  //     $("body").width() * Math.random(),
+  //     Math.random() * 1000
+  //   );
+  //   $('body').append(popDancer.$node2);
 
-    var popDancer = new secondDancerMakerFunction(
-      $("body").height() * Math.random(),
-      $("body").width() * Math.random(),
-      Math.random() * 1000
-    );
-    $('body').append(popDancer.$node);
-
-  });
+  // });
 });
 

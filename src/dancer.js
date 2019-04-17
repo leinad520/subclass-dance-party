@@ -1,5 +1,6 @@
 var MakeDancer = function(top, left, timeBetweenSteps) {
   this.$node = $('<span class="dancer"></span>');
+  //this.$node2 = $('<span class="popDancer"></span>');
   this.time = timeBetweenSteps;
   this.top = top;
   this.left = left;
